@@ -1,0 +1,14 @@
+.DS_Store
+.vite-ssg-dist
+.vite-ssg-temp
+*.local
+dist
+dist-ssr
+node_modules
+.idea/
+*.log
+stats.html
+src-tauri
+.vscode
+auto-imports.d.ts
+components.d.ts

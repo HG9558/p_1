@@ -1,0 +1,14 @@
+[theme='yellow']:root {
+  --bg-1: yellow;
+  --app-navbar-bg: linear-gradient(180deg, #044B9A 0%, #011A51 100%);
+  --app-navbar-color: #fff;
+  
+  --app-container-bg: linear-gradient(180deg, #044B9A 0%, #011A51 100%);
+  --app-table-bg: linear-gradient(180deg, rgba(4, 75, 154, 0.7) 0%, rgba(1, 26, 81, 0.7) 100%),
+    linear-gradient(0deg, rgba(14, 209, 244, 0.25), rgba(14, 209, 244, 0.25));
+  --app-table-border: rgba(14, 209, 244, 0.25);
+  
+  --app-text-color:#fff;
+  --app-text-color-1:rgba($color: #fff, $alpha: 0.6);
+  --app-text-color-2:#0ED1F4;
+}
