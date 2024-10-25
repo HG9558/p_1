@@ -91,7 +91,7 @@ const { custService } = storeToRefs(appStore);
 const gameStore = useGameStore();
 const { gameNavData, gameNavInit } = storeToRefs(gameStore);
 
-const s;
+const s =1;
 
 const openService = (url?: string) => {
   if (!url) return;
