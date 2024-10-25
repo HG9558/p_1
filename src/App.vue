@@ -15,6 +15,8 @@ const openService = (url?: string) => {
   openLink(url);
 };
 
+const r = 123;
+
 const handleUpdated = () => {
   const loading = document.querySelector("#full-loading");
   if (loading) {
