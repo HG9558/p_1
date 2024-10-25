@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { log } from "console";
 import { openLink } from "~/utils/utils";
 const route = useRoute();
 
@@ -16,6 +17,7 @@ const openService = (url?: string) => {
 };
 
 const r = 123
+
 
 const handleUpdated = () => {
   const loading = document.querySelector("#full-loading");
