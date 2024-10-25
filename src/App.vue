@@ -16,8 +16,9 @@ const openService = (url?: string) => {
   openLink(url);
 };
 
-const r = 123
+const r = 123;
 
+console.log("App.vue文件 21行打印===============", r);
 
 const handleUpdated = () => {
   const loading = document.querySelector("#full-loading");
